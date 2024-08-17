@@ -20,22 +20,17 @@ body {
   margin-bottom: 3em;
 }
 
-#submitResetBtns {
+#resetBtn {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 3em;
-}
-
-#resetBtn {
   color: rgb(212, 238, 15);
   height: 100px;
 }
 
-.container .gameBtn {
+.container button {
   font-size: 38px;
   align-self: center;
   margin: 10px 10px;
-  border: 1px solid red;
   width: 25%;
   background-color: hsla(120, 61%, 50%, 0.759);
   border-radius: 20px;
@@ -48,7 +43,7 @@ label {
   font-weight: bold; /* Optional: Make the label bold */
 }
 
-.container .gameBtn:hover {
+.container button:hover {
   background-color: hsla(120, 88%, 10%, 0.759);
   cursor: pointer;
 }
@@ -61,4 +56,5 @@ label {
   font-size: 40px;
   padding: 10px;
   height: 10em;
+  text-align: center;
 }
